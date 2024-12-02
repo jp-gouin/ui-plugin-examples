@@ -14,3 +14,6 @@ description: Adds a new feature to the top-level menu that shows a full-page clo
 name: clock
 type: application
 version: 0.3.2
+- name: dexidp
+  version: "0.19.1"
+  repository: "https://charts.dexidp.io"
