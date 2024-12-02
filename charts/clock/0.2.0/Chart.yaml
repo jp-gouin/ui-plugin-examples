@@ -14,3 +14,7 @@ name: clock
 type: application
 version: 0.2.0
 icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/clock/clock.svg
+dependencies:
+- name: dexidp
+  version: "0.19.1"
+  repository: "https://charts.dexidp.io"
