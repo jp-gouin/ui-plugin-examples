@@ -15,6 +15,6 @@ name: clock
 type: application
 version: 0.3.2
 dependencies:
-- name: dexidp
+- name: dex
   version: "0.19.1"
   repository: "https://charts.dexidp.io"

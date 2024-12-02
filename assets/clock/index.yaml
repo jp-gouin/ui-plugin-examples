@@ -1,0 +1,108 @@
+apiVersion: v1
+entries:
+  clock:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3'
+    apiVersion: v2
+    appVersion: 0.3.2
+    created: "2024-12-02T10:15:16.717381306Z"
+    dependencies:
+    - name: dex
+      repository: https://charts.dexidp.io
+      version: 0.19.1
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: 06e5da4d116f1a58df57f3431a8053be6766017e4145bde4e8edb34348b10006
+    name: clock
+    type: application
+    urls:
+    - clock-0.3.2.tgz
+    version: 0.3.2
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3'
+    apiVersion: v2
+    appVersion: 0.3.1
+    created: "2024-12-02T10:15:16.715526159Z"
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: 30e7b2daa643fcd88c0ef8a63153d3a9365493e34f6d1bee83c87a860baa657e
+    name: clock
+    type: application
+    urls:
+    - clock-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3'
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2024-12-02T10:15:16.71523951Z"
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: b4d5ee112171cc5b5a960a2881c07ec5f4fec5190cf5f789a90a89a09850e3b1
+    name: clock
+    type: application
+    urls:
+    - clock-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0 < 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-12-02T10:15:16.714913324Z"
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: 699a5b4d7d60cfcdf0f83a3e1325c0b519407158cbb320e0887b0a53b4bd41f8
+    icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/clock/clock.svg
+    name: clock
+    type: application
+    urls:
+    - clock-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0 < 2.10.0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-12-02T10:15:16.71446042Z"
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: 0da1883141d32c39c76b12c7cfe50c90fbadd4b4303502d64c197aa0bcb9e7ae
+    icon: https://raw.githubusercontent.com/rancher/ui-plugin-examples/main/pkg/clock/clock.svg
+    name: clock
+    type: application
+    urls:
+    - clock-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-12-02T10:15:16.713869802Z"
